@@ -1,0 +1,177 @@
+@charset "utf-8";
+/* CSS Document */
+/*侧面分类*/
+.first-show {
+	clear: both;
+}
+.main-nav {
+	width: 210px;
+	z-index: 7;
+	margin-top: -450px;
+}
+.float-list {
+    width: 210px;
+    height: auto;
+    background: #f9f9f9;
+}
+.float-list dl {
+	position: relative;
+	z-index: 7;
+	clear: both;
+	width: 210px;
+	cursor: pointer;
+	filter: alpha(Opacity=90);
+	opacity:0.9;
+}
+.float-list dl dt {
+	display: inline;
+	position: relative;
+	float: left;
+	width: 198px;
+	border: 1px solid #eee;
+	border-top: none;
+	line-height: 22px;
+	overflow: hidden;
+	text-align: left;
+	padding: 15px 0px 8px 10px;
+	background: #f9f9f9;
+}
+
+.float-list dl dt.hover {
+	background-color: #fff;
+	width: 200px;
+	z-index: 7;
+	border: 1px solid #eee;
+	border-right: none;
+	border-left: 2px solid #E31939;
+	padding-left: 9px;
+	padding-top: 14px;
+}
+.float-list dl dt.hover .arrow-right {
+	top: 14px;
+	right: 17px;
+}
+.float-list dl dt strong {
+	float: left;
+	width: 208px;
+	height: 18px;
+	overflow: hidden;
+	margin: 0 0 4px;
+}
+.float-list dl dt strong a {
+	color: #333;
+	font-size: 14px;
+	line-height: 18px;
+}
+.float-list dl dt .arrow-right{
+	display:block;
+    height: 12px;
+	position: absolute;
+    top: 15px;
+    right: 15px;
+	font: 700 12px/18px simsun;
+}
+.float-list dl dt p {
+	clear: both;
+	height: 44px;
+	overflow: hidden;
+	font-size: 12px;
+}
+.float-list dl dt p a {
+	white-space: nowrap;
+	height:22px;
+	line-height:22px;
+	display:inline-block;
+	margin-right: 13px;
+	float: left;
+}
+.float-list dl dd {
+    display: none;
+    position: absolute;
+    left: 210px;
+    width: 650px;
+    background: #fff;
+    border: 1px solid #eee;
+    z-index: 6;
+}
+.float-list dl dd a {
+	color: #666;
+	white-space: nowrap; /*禁止文字自动换行*/
+}
+.float-list dl dd .secondlist {
+    float: left;
+    width: 610px;
+    padding: 0 20px;
+    font-size: 12px;
+}
+.float-list dl dd .secondlist li {
+    width: 610px;
+    padding: 10px 0;
+    line-height: 22px;
+    overflow: hidden;
+}
+.float-list dl dd .secondlist li strong {
+    float: left;
+    width: 70px;
+    font-weight: 400;
+    text-align: left;
+}
+.float-list dl dd .secondlist li strong a {
+    padding: 0;
+    color: #444;
+    font-size: 14px;
+}
+.float-list dl dd .secondlist li .float-list-cont {
+    float: left;
+    width: 540px;
+}
+.float-list dl dd .secondlist li .float-list-cont a {
+    float: left;
+	padding-right:13px;
+}
+
+/*banner*/
+.category-banner{
+	position: relative;
+	height: 350px;
+	zoom: 1;
+	width: 100%;
+	overflow: hidden;	
+}
+.category-banner .banner-panel{
+	height: 350px;
+	overflow:hidden;	
+}
+.category-banner .banner-panel li{
+	width:100%;
+	height: 350px;
+}
+.category-banner .banner-panel li a{
+	display:block;
+	width:100%;
+	height: 350px;
+}
+.category-banner .banner-extra{
+	width:100%;
+	position:absolute;
+	bottom:15px;	
+	text-align:center;
+}
+.category-banner .banner-extra span{
+	display:inline-block;
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+	background:#000;
+	filter:alpha(opacity=60);
+	opacity:.6;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+}
+.category-banner .banner-extra span.curr{
+	background:#09ABA8;	
+}
+

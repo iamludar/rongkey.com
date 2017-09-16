@@ -1,0 +1,1398 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<xbasehref="http://www.rongkey.com/english/" />
+<meta name="Generator" content="68ECSHOP v4_2" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="招聘主体：上海某公司
+规模：大
+招聘数量：10人左右
+工作地点：只需到公司面试一次，通过后在家即可完成任务。
+" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>在家兼职，预期日薪50元，预计工作1个小时_兼职_上海融康  </title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link rel="stylesheet" type="text/css" href="goods-1.css" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/css/goods.css" />
+<script type="text/javascript" src="jquery-1.9.1.min-2.js" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/js/jquery-1.9.1.min.js" ></script>
+<script type="text/javascript" src="magiczoom-1.js" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/js/magiczoom.js" ></script>
+<script type="text/javascript" src="magiczoom_plus-1.js" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/js/magiczoom_plus.js" ></script>
+<script type="text/javascript" src="scrollpic-1.js" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/js/scrollpic.js"></script>
+<script type="text/javascript" src="gw_totop-1.js" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/js/gw_totop.js" ></script>
+<script type="text/javascript" src="jquery.json-1.js" tppabs="http://www.rongkey.com/english/js/jquery.json.js"></script><script type="text/javascript" src="transport-1.js" tppabs="http://www.rongkey.com/english/js/transport.js"></script><script type="text/javascript" src="common-1.js" tppabs="http://www.rongkey.com/english/js/common.js"></script></head>
+<body>
+<div id="bg" class="bg" style="display:none;"></div>
+<script type="text/javascript">
+function showDiv(goods_id){
+	document.getElementById('popDiv').style.display='block';
+	document.getElementById('bg').style.display='block';
+	var form_quick_buy = document.forms['quick_buy'];
+	form_quick_buy.elements['goods_id'].value = goods_id;
+	 var sels = document.getElementsByTagName('select'); 
+	 for (var i = 0; i < sels.length; i++) {
+		if(sels[i].name!='country' && sels[i].name!='province' && sels[i].name !='city' && sels[i].name !='district'){
+			sels[i].style.visibility = 'hidden';     
+		}
+	}
+}
+function closeDiv(){
+document.getElementById('popDiv').style.display='none';
+document.getElementById('bg').style.display='none';
+var sels = document.getElementsByTagName('select'); 
+ for (var i = 0; i < sels.length; i++) {
+		sels[i].style.visibility = '';     
+    }
+}
+function check_notice() {
+    var form_notice= document.forms['pricecut_notice'];
+    var price = form_notice.elements['price'].value;
+    var mobile = form_notice.elements['mobile'].value;
+    var email = form_notice.elements['email'].value;
+    var msg = '';
+     if (price == '') {
+        msg += '价格不能为空\n';
+	 $('.pricecut-notice-form .price-notice').html('价格不能为空!').parents('.price-text-notice').show();
+    }else if(isNaN(price)){
+         msg += '价格必须为数字\n';
+	 $('.pricecut-notice-form .price-notice').html('价格必须为数字!').parents('.price-text-notice').show();
+     }else if(parseFloat(price) >= parseFloat(form_notice.elements['price_now'].value.replace(/[^0-9.]/ig,""))){
+         msg += '价格应低于商品当前价\n';
+	 $('.pricecut-notice-form .price-notice').html('价格应低于商品当前价!').parents('.price-text-notice').show();
+     }else{
+     		$('.pricecut-notice-form .price-notice').html('').parents('.price-text-notice').hide();	
+     }
+    if (mobile == '') {
+        msg += '手机号码不能为空\n';
+	$('.pricecut-notice-form .phone-notice').html('手机号码不能为空!').parents('.price-text-notice').show();
+    } else {
+        if (!(/^[\d-]{6,}$/.test(mobile))) {
+            msg += '手机号码格式不对\n';
+	    $('.pricecut-notice-form .phone-notice').html('手机号码格式不对!').parents('.price-text-notice').show();
+        }else{
+		$('.pricecut-notice-form .phone-notice').html('').parents('.price-text-notice').hide();	
+    	}
+    }
+    if (email == '') {
+        msg += '邮箱不能为空\n';
+	$('.pricecut-notice-form .email-notice').html('邮箱不能为空!').parents('.price-text-notice').show();
+    }else{
+        var reg1 = /([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)/;
+        if (!reg1.test(email)) {
+            msg += '邮箱格式不正确\n';
+	    	$('.pricecut-notice-form .email-notice').html('邮箱格式不正确!').parents('.price-text-notice').show();
+        }else{
+			$('.pricecut-notice-form .email-notice').html('').parents('.price-text-notice').hide();
+    	}
+    }
+    if (msg){
+        return false;
+    }else{		
+        return true;
+    }
+}
+</script>
+<div id="popDiv" class="mydiv pricecut-notice-form" style="display:none;">
+  <div class="qb_left"><span>降价通知</span><a href="javascript:closeDiv()" title="关闭"></a></div>
+<div class="pop-con">
+  <form  method="post" name="pricecut_notice" action="http://www.rongkey.com/english/pricecut.php"  onSubmit="return check_notice();">
+    <table cellpadding=0 cellspacing=0 width="90%" border=0>
+      <tr>
+        <td colspan="2" align=left style="padding:15px 0px;">
+        	<div class="notice-note">
+            	<p class="main-color">在家兼职，预期日薪50元，预计工作1个小时</p>
+            	当商品价格低于您设定的价格我们将通知您，通知短信最多发送一次，不会对您造成干扰。 
+            </div>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right" width="20%">现价：</td>
+        <td align="left">
+        	<font class="main-color"> 
+                      		￥0.0 
+          	 
+          </font>
+          <input type="hidden" name="price_now" value="￥0.0" />
+        </td>
+      </tr>
+      <tr>
+        <td valign="top" align="right"><font class="main-color">*</font>价格低于：</td>
+        <td align="left">
+        	<input type="text" id="consignee" name="price" size="13" class="inputBg inputBg-spe" onkeyup="this.value=this.value.replace(/[^0-9.]/ig,'')" onafterpaste="this.value=this.value.replace(/[^0-9.]]/ig,'')" />
+          元时通知我！
+	<div class="price-text-notice">
+            	<i class="notice-icon"></i>
+                <span class="notice-text price-notice"></span>
+            </div>
+        </td>
+      </tr>
+      <tr>
+        <td align=right><font class="main-color">*</font>手机号码：</td>
+        <td align="left">
+        	<input type="text" name="mobile" size=23 class="inputBg" />
+          	我们将以短信通知您
+		<div class="price-text-notice">
+            	<i class="notice-icon"></i>
+                <span class="notice-text phone-notice"></span>
+            </div> 
+        </td>
+      </tr>
+      <tr>
+        <td align=right><font class="main-color">*</font>邮箱：</td>
+        <td align="left">
+        	<input type="text"  name="email" class="inputBg" />
+          	您还可以通过邮件接收
+		<div class="price-text-notice">
+            	<i class="notice-icon"></i>
+                <span class="notice-text email-notice"></span>
+            </div>   
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center" style="padding:20px 0 30px;">
+        	<input type="hidden" value="313" name="goods_id" id="goods_id" />
+          	<input type="submit" class="pop-sure main-bg-color" value="马上提交">
+        </td>
+      </tr>
+    </table>
+  </form>
+  </div>
+</div>
+<script type="text/javascript" src="arrive_notice-1.js" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/js/arrive_notice.js" ></script>
+<div class="tell-me-form" style="display:none;" id="tell-me-table">
+	<div class="pop-header"><span>到货通知</span><a href="javascript:closeDiv1()" title="关闭" class="tell-me-close"></a></div>
+    <div class="tell-me-content">
+    	<table cellpadding="0" cellspacing="0" width="100%" border="0">
+              <tr>
+                <td colspan="2" align="left">
+                    <div class="blank10"></div>
+                    <div class="notice-note">
+                        <p class="main-color" id="rgoods_name"></p>
+                        当商品进行补货时，我们将以短信、邮件的形式通知您，最多发送一次，不会对您造成干扰。
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td width="30%" align="right"><font class="main-color">*</font>数量：</td>
+                <td align="left">
+                    <input type="text" value="1" id="book-number"class="inputBg" />
+                    <div class="tell-me-notice">
+                        <i class="notice-icon"></i><span class="notice-text num-notice"></span>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="right"><font class="main-color">*</font>手机号码：</td>
+                <td align="left">
+                    <input type="text" value="" id="phone-num"class="inputBg" />
+                    <div class="tell-me-notice">
+                        <i class="notice-icon"></i><span class="notice-text phone-notice"></span>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td align="right"><font class="main-color">*</font>电子邮箱：</td>
+                <td align="left">
+                    <input type="text" value="" id="arrival-email"class="inputBg" />
+                    <div class="tell-me-notice">
+                        <i class="notice-icon"></i><span class="notice-text email-notice"></span>
+                    </div>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center" style="padding:20px 0 30px;">
+                    <input type="button" value="马上提交" onclick="tell_me1(313)" class="sure-btn"/>
+                </td>
+              </tr>
+            </table>
+    </div>
+</div>
+<link rel="stylesheet" type="text/css" href="68ecshop_common-1.css" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/css/68ecshop_common.css" />
+<script language="javascript"> 
+<!--
+/*屏蔽所有的js错误*/
+function killerrors() { 
+return true; 
+} 
+window.onerror = killerrors; 
+//-->
+</script>
+<script type="text/javascript" src="page-1.js" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/js/page.js"></script>
+<script type="text/javascript" src="bubbleup-1.js" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/js/bubbleup.js"></script>
+<base href="" />
+<div id="site-nav">
+  <div class="sn-container "  id="top_yz"> 
+    <ul class="sn-quick-menu">
+      <li class="sn-mytaobao menu-item">
+        <div class="sn-menu"> 
+          <a class="menu-hd" href="index.htm" tppabs="http://www.rongkey.com/" target="_top" rel="nofollow">English/中文<b></b></a>
+        </div>
+      </li>
+      <li class="sn-separator"></li>
+      <script type="text/javascript">
+		function show_qcord(){
+			var qs=document.getElementById('sn-qrcode');
+			qs.style.display="block";
+		}
+		function hide_qcord(){
+			var qs=document.getElementById('sn-qrcode');
+			qs.style.display="none";
+		}
+	  </script>
+      <li class="menu-item">
+        <div class="sn-menu"> 
+          <a class="menu-hd" href="javascript:if(confirm('http://mail.rongkey.com/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://mail.rongkey.com/'" tppabs="http://mail.rongkey.com/" target="_blank">Staff Only<b></b></a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<script>
+header_login();
+function header_login()
+{	
+	Ajax.call('login_act_ajax-1.php.htm'/*tpa=http://www.rongkey.com/english/login_act_ajax.php*/, '', loginactResponse, 'GET', 'JSON', '1', '1');
+}
+function loginactResponse(result)
+{
+	var MEMBERZONE =document.getElementById('login-info');
+	MEMBERZONE.innerHTML= result.memberinfo;
+}
+</script>
+<div class="new-logo"> <a href="index-2.htm" tppabs="http://www.rongkey.com/english/"><img height="90"  src="logo-1.gif.png" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/images/logo.gif" /></a> </div>
+<div class="all-nav">
+  <div class="">
+      <div class="allnav fl" id="nav">
+        <ul>
+          <li><a class="nav" href="index-1.php.htm" tppabs="http://www.rongkey.com/english/index.php" >Home</a></li>
+          <li>
+		  <a class="nav " href="article-1.php-id=131.htm" tppabs="http://www.rongkey.com/english/article.php?id=131"   >About Rongkey</a>
+			  <ul>				  
+								<li><a href="article-1.php-id=131.htm#1jpg" tppabs="http://www.rongkey.com/english/article.php?id=131#1jpg">Interpretation</a></li>
+								<li><a href="article-1.php-id=131.htm#2jpg" tppabs="http://www.rongkey.com/english/article.php?id=131#2jpg">Profile</a></li>
+								<li><a href="article-1.php-id=131.htm#3jpg" tppabs="http://www.rongkey.com/english/article.php?id=131#3jpg">Culture</a></li>
+								<li><a href="article-1.php-id=131.htm#4jpg" tppabs="http://www.rongkey.com/english/article.php?id=131#4jpg">Organization</a></li> 
+			  </ul>
+		  </li>
+          <li><a class="nav " href="article-1.php-id=152.htm" tppabs="http://www.rongkey.com/english/article.php?id=152"  >Services</a>
+			  <ul>				  
+								<li><a href="article-1.php-id=152.htm#1jpg" tppabs="http://www.rongkey.com/english/article.php?id=152#1jpg">Styling Design
+						</a></li>
+								<li><a href="article-1.php-id=152.htm#2jpg" tppabs="http://www.rongkey.com/english/article.php?id=152#2jpg">Structure Design
+						</a></li>
+								<li><a href="article-1.php-id=152.htm#3jpg" tppabs="http://www.rongkey.com/english/article.php?id=152#3jpg">Engineering Development
+						</a></li>
+								<li><a href="article-1.php-id=152.htm#4jpg" tppabs="http://www.rongkey.com/english/article.php?id=152#4jpg">Parts Manufacturing
+						</a></li>
+								<li><a href="article-1.php-id=152.htm#5jpg" tppabs="http://www.rongkey.com/english/article.php?id=152#5jpg">Design Training</a></li> 
+			  </ul>
+		  </li>
+          <li><a class="nav " href="article-1.php-id=153.htm" tppabs="http://www.rongkey.com/english/article.php?id=153"   >Advantages</a>
+			  <ul>				  
+								<li><a href="article-1.php-id=153.htm#1jpg" tppabs="http://www.rongkey.com/english/article.php?id=153#1jpg">Professional & Concentration</a></li>
+								<li><a href="article-1.php-id=153.htm#2jpg" tppabs="http://www.rongkey.com/english/article.php?id=153#2jpg">Efficient Environment</a></li>
+								<li><a href="article-1.php-id=153.htm#4jpg" tppabs="http://www.rongkey.com/english/article.php?id=153#4jpg">Design<sup>+</sup></a></li>
+								<li><a href="article-1.php-id=153.htm#5jpg" tppabs="http://www.rongkey.com/english/article.php?id=153#5jpg">Location</a></li> 
+			  </ul>
+		  </li>
+          <li><a class="nav " href="article-1.php-id=154.htm" tppabs="http://www.rongkey.com/english/article.php?id=154"   >Value Customers</a>
+			  <ul>				  
+								<li><a href="article-1.php-id=154.htm#1jpg" tppabs="http://www.rongkey.com/english/article.php?id=154#1jpg">LOGO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+			  </ul>
+		  </li>
+          <li><a class="nav " href="article-1.php-id=156.htm" tppabs="http://www.rongkey.com/english/article.php?id=156"   >Recruiting</a>
+			  <ul>				  
+								<li><a href="article-1.php-id=156.htm#1jpg" tppabs="http://www.rongkey.com/english/article.php?id=156#1jpg">Talent declaration
+						</a></li>
+								<li><a href="article-1.php-id=156.htm#2jpg" tppabs="http://www.rongkey.com/english/article.php?id=156#2jpg">Social recruitment
+						</a></li>
+								<li><a href="article-1.php-id=156.htm#3jpg" tppabs="http://www.rongkey.com/english/article.php?id=156#3jpg">Campus Recruitment
+						</a></li>
+								<li><a href="article-1.php-id=156.htm#4jpg" tppabs="http://www.rongkey.com/english/article.php?id=156#4jpg">Career Development
+						</a></li> 
+			  </ul>
+		  </li>
+          <li><a class="nav " href="article_cat-1.php-id=35.htm" tppabs="http://www.rongkey.com/english/article_cat.php?id=35"   >Information News</a>
+			  <ul>				  
+								<li><a href="article_cat-1.php-id=35.htm" tppabs="http://www.rongkey.com/english/article_cat.php?id=35">Company Dynamic</a></li>
+								<li><a href="article_cat-1.php-id=34.htm" tppabs="http://www.rongkey.com/english/article_cat.php?id=34">Industry News</a></li>
+			  </ul>
+		  </li>
+          <li><a class="nav " href="article-1.php-id=148.htm" tppabs="http://www.rongkey.com/english/article.php?id=148"   >Contact Us</a>
+		  </li>
+        </ul>
+		
+      </div>
+  </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+function checkSearchForm()
+{
+    if(document.getElementById('keyword').value)
+    {
+	var frm  = document.getElementById('searchForm');
+	var type = parseInt(document.getElementById('searchtype').value);
+	frm.action = type==0 ? 'search.php-encode=YToxOntzOjE4OiJzZWFyY2hfZW5jb2RlX3RpbWUiO2k6MTUwNTU2MjY5Mjt9.htm'/*tpa=http://www.rongkey.com/english/search.php*/ : 'stores-1.php.htm'/*tpa=http://www.rongkey.com/english/stores.php*/;
+        return true;
+    }
+    else
+    {
+	alert("请输入关键词！");
+        return false;
+    }
+}
+function myValue1()
+{
+	document.getElementById('keyword').value = "请输入商品名称或编号...";
+}
+function myValue2()
+{
+	document.getElementById('keyword').value = "";
+}
+//]]>
+$('.search-type li').click(function() {
+    $(this).addClass('cur').siblings().removeClass('cur');
+    $('#searchtype').val($(this).attr('num'));
+});
+$(function(){
+	//图片放大效果
+    $(".header-right img").bubbleup({scale:100});
+	
+	//头部搜索
+	$('.search-type').hover(function(){
+		$(this).css({"height":"auto","overflow":"visible"});
+	},function(){
+		$(this).css({"height":32,"overflow":"hidden"});
+	});
+	
+});
+function _show_(h, b) {
+	if (!h) {
+		return
+	}
+	if (b && b.source && b.target) {
+		var d = (typeof b.source == "string") ? M.$("#" + b.source) : b.source;
+		var e = (typeof b.target == "string") ? M.$("#" + b.target) : b.target;
+		if (d && e && !e.isDone) {
+			e.innerHTML = d.value;
+			d.parentNode.removeChild(d);
+			if (typeof b.callback == "function") {
+				b.callback()
+			}
+			e.isDone = true
+		}
+	}
+	M.addClass(h, "hover");
+	if (b && b.isLazyLoad && h.isDone) {
+		var g = h.find("img");
+		for (var a = 0, c = g.length; a < c; a++) {
+			var f = g[a].getAttribute("data-src_index_menu");
+			if (f) {
+				g[a].setAttribute("src", f);
+				g[a].removeAttribute("data-src_index_menu")
+			}
+		}
+		h.isDone = true
+	}
+}
+function _hide_(a) {
+	if (!a) {
+		return
+	}
+	if (a.className.indexOf("hover") > -1) {
+		M.removeClass(a, "hover")
+	}
+}
+</script>
+<script type="text/javascript" src="nav-1.js" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/js/nav.js"></script>
+<div class="margin-w1210 clearfix">
+  	<div class="w">
+  <div class="breadcrumb clearfix"><a href="-1.htm" tppabs="http://www.rongkey.com/english/." class="index">Home</a> <span class='crumbs-arrow'>&gt;</span> <div class='crumbs-nav crumbs-nav0'><a class='crumbs-title' href="javascript:if(confirm('http://www.rongkey.com/english/category.php?id=373  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='http://www.rongkey.com/english/category.php?id=373'" tppabs="http://www.rongkey.com/english/category.php?id=373">兼职<i class='icon'></i></a><div class='crumbs-drop'><ul class='crumbs-drop-list'><li><a href="javascript:if(confirm('http://www.rongkey.com/english/category.php?id=373  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='http://www.rongkey.com/english/category.php?id=373'" tppabs="http://www.rongkey.com/english/category.php?id=373">兼职</a></li><li><a href="javascript:if(confirm('http://www.rongkey.com/english/category.php?id=374  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='http://www.rongkey.com/english/category.php?id=374'" tppabs="http://www.rongkey.com/english/category.php?id=374">网站建设</a></li><li><a href="javascript:if(confirm('http://www.rongkey.com/english/category.php?id=375  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='http://www.rongkey.com/english/category.php?id=375'" tppabs="http://www.rongkey.com/english/category.php?id=375">小视频</a></li></ul></div></div> <span class="crumbs-arrow">&gt;</span> <span class="last">在家兼职，预期日薪50元，预计工作1个小时</span></div>
+</div>
+<div class="blank"></div>
+<script>
+$(function(){
+	$('.breadcrumb .crumbs-nav').hover(function(){
+		$(this).toggleClass('curr');	
+	})
+})
+</script>
+	<div id="product-intro" class="goods-info"> 
+      <div id="preview">
+        <div class="goods-img" id="li_313"> 
+        	<a href="javascript:if(confirm('http://www.rongkey.com/english/images/201704/source_img/313_P_1492742561072.png  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='http://www.rongkey.com/english/images/201704/source_img/313_P_1492742561072.png'" tppabs="http://www.rongkey.com/english/images/201704/source_img/313_P_1492742561072.png" class="MagicZoom" id="zoom" rel="zoom-position: right;"> 
+                 
+                <img  src="313_P_1492742561210-1.jpg" tppabs="http://www.rongkey.com/english/images/201704/goods_img/313_P_1492742561210.jpg" class="goodsimg pic_img_313" id="goods_bimg" width="400" height="400" /> 
+                 
+          	</a> 
+        </div>
+        <div style="height:10px; line-height:10px; clear:both;"></div>
+         
+        <div class="clearfix" class="goods_picture">
+<span class="scrleft" onmouseover="moveLeft()" onmousedown="clickLeft()" onmouseup="moveLeft()" onmouseout="scrollStop()"></span>
+<div class="gallery">
+  <div id="demo">
+    <div id="demo1" style="float:left;">
+      <ul id="goods_gallery">
+                <li> <a href="javascript:if(confirm('http://www.rongkey.com/english/images/201704/source_img/313_P_1492742561072.png  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='http://www.rongkey.com/english/images/201704/source_img/313_P_1492742561072.png'" tppabs="http://www.rongkey.com/english/images/201704/source_img/313_P_1492742561072.png" rel="zoom-id: zoom;" rev="images/201704/goods_img/313_P_1492742561210.jpg"   title="" > <img src="313_thumb_P_1492742561169-1.jpg" tppabs="http://www.rongkey.com/english/images/201704/thumb_img/313_thumb_P_1492742561169.jpg" alt="在家兼职，预期日薪50元，预计工作1个小时" class="B_blue"  /> </a> </li>
+              </ul>
+    </div>
+    <div id="demo2" style="display:inline; overflow:visible;"></div>
+  </div>
+</div>
+<span class="scrright" onmouseover="moveRight()" onmousedown="clickRight()" onmouseup="moveRight()" onmouseout="scrollStop()" class="spanR"></span> 
+<script>
+      function $gg(id){  
+        return (document.getElementById) ? document.getElementById(id): document.all[id]
+      }
+      
+      var boxwidth=60;//跟图片的实际尺寸相符
+      
+      var box=$gg("demo");
+      var obox=$gg("demo1");
+      var dulbox=$gg("demo2");
+      obox.style.width=obox.getElementsByTagName("li").length*boxwidth+'px';
+      dulbox.style.width=obox.getElementsByTagName("li").length*boxwidth+'px';
+      box.style.width=obox.getElementsByTagName("li").length*boxwidth*6+'px';
+      var canroll = false;
+      if (obox.getElementsByTagName("li").length >= 6) {
+        canroll = true;
+        dulbox.innerHTML=obox.innerHTML;
+      }
+      var step=5;temp=1;speed=50;
+      var awidth=obox.offsetWidth;
+      var mData=0;
+      var isStop = 1;
+      var dir = 1;
+      
+      function s(){
+        if (!canroll) return;
+        if (dir) {
+      if((awidth+mData)>=0)
+      {
+      mData=mData-step;
+      }
+      else
+      {
+      mData=-step;
+      }
+      } else {
+        if(mData>=0)
+        {
+        mData=-awidth;
+        }
+        else
+        {
+        mData+=step;
+        }
+      }
+      
+      obox.style.marginLeft=mData+"px";
+      
+      if (isStop) return;
+      
+      setTimeout(s,speed)
+      }
+      
+      
+      function moveLeft() {
+          var wasStop = isStop;
+          dir = 1;
+          speed = 50;
+          isStop=0;
+          if (wasStop) {
+            setTimeout(s,speed);
+          }
+      }
+      
+      function moveRight() {
+          var wasStop = isStop;
+          dir = 0;
+          speed = 50;
+          isStop=0;
+          if (wasStop) {
+            setTimeout(s,speed);
+          }
+      }
+      
+      function scrollStop() {
+        isStop=1;
+      }
+      
+      function clickLeft() {
+          var wasStop = isStop;
+          dir = 1;
+          speed = 25;
+          isStop=0;
+          if (wasStop) {
+            setTimeout(s,speed);
+          }
+      }
+      
+      function clickRight() {
+          var wasStop = isStop;
+          dir = 0;
+          speed = 25;
+          isStop=0;
+          if (wasStop) {
+            setTimeout(s,speed);
+          }
+      }
+      </script>
+</div>
+  
+        
+        <div class="goods-gallery-bottom">
+        	        	<div class="goods-sn fl">
+            	<span class="goods-sn-color">商品货号</span>
+                <span>ECS000313</span>
+            </div>
+             
+            <a class="goods-compare compare-btn fr" data-goods="313" data-type="" onclick="Compare.add(313,'在家兼职，预期日薪50元，预计工作1个小时','0', '313_thumb_G_1492742561973-1.jpg'/*tpa=http://www.rongkey.com/english/images/201704/thumb_img/313_thumb_G_1492742561973.jpg*/, '￥0.0')"><i></i>对比</a>
+            
+            <a href="javascript:collect(313)" class="goods-col  fr">
+            	<b></b><i>收藏 (0)</i>
+            </a>   
+            <div class="bdsharebuttonbox fr">
+        		<a class="bds_more" href="#" data-cmd="more" style="background: transparent url(themes/68ecshopcom_360buy/images/goods-icon.png) no-repeat -110px -166px;color: #999;line-height: 25px;height: 25px; margin: 0px 10px; padding-left:20px; display: block;">分享</a>
+            </div>
+        </div>
+		<script type="text/javascript">
+        	window._bd_share_config = {
+			"common": {
+				"bdSnsKey": {},
+				"bdText": "",
+				"bdMini": "2",
+				"bdMiniList": false,
+				"bdPic": "",
+				"bdStyle": "0",
+				"bdSize": "16"
+			},
+			"share": {}
+		};
+		with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~ (-new Date() / 36e5)];
+        </script>
+      </div>
+      <div class="goods-detail-info">
+          <form action="javascript:addToCart(313)" method="post" name="ECS_FORMBUY" id="ECS_FORMBUY" >        
+               <div class="goods-name">
+                  <h1>在家兼职，预期日薪50元，预计工作1个小时</h1>
+               </div>
+                              <div class="goods-brief"><span>招聘主体：上海某公司
+规模：大
+招聘数量：10人左右
+工作地点：只需到公司面试一次，通过后在家即可完成任务。
+</span></div>
+                              <div id="goods-price">
+                 <div class="mar-l">
+                      <span class="price">预算</span><strong class="p-price" >¥0</strong>
+                 </div>
+                </div>
+                  
+                                     
+                   
+                   
+                  <script type="text/javascript">
+					var myString=new Array();
+					
+										
+				  </script> 
+                   
+                  
+                                  </ul>
+               <div class="buyNub-buy-wrap">
+                  	<div id="choose-btns" class="buyNub-buy"> 
+                         
+                        <a href="javascript:addToCart(313,0,1)" name="bi_addToCart" class="u-buy1">在线支付</a> <a href="javascript:addToCart(313)" name="bi_addToCart" class="u-buy2">加入收藏</a> 
+                         
+                  	</div>
+					<script type="text/javascript">
+                        $("#phone").mouseover( function(){	
+                            $( "#phone-tan" ).show();
+                        });
+                        $("#phone").mouseleave( function(){
+                            $( "#phone-tan" ).hide();
+                        });
+                    </script> 
+                </div>       
+          </form>
+      </div>
+      <div id="supp_info"> 
+         
+        <div id="shop-info">
+  <dl class="shop-title">
+    <dt><span>平台自营</span></dt>
+  </dl>
+  <div class="shop-info-detail">
+      <div class="blank10"></div>
+      <dl>
+        <dt>商家名称：</dt>
+        <dd>上海融康</dd>
+      </dl>
+            <dl>
+        <dt>客服邮件：</dt>
+        <dd>784810283@qq.com</dd>
+      </dl>
+                  <dl>
+        <dt>客服电话：</dt>
+        <dd>13671791142</dd>
+      </dl>
+            <dl>
+        <dt>所在地区：</dt>
+        <dd>上海融康</br></dd>
+      </dl>
+      <div id="enter-shop"> 
+        <div class="shop-customer clearfix">
+                                                            <a class="btn-customer" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=784810283&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=784810283&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=784810283&site=qq&menu=yes" target="_blank" title="点击这里联系我">
+                <i><img src="button_old_41.gif" tppabs="http://wpa.qq.com/pa?p=1:784810283:4" height="16" border="0" alt="QQ" /></i>联系QQ
+            </a>
+                                                <a class="btn-customer" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=784810283&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=784810283&site=qq&menu=yes'" tppabs="http://wpa.qq.com/msgrd?v=3&uin=784810283&site=qq&menu=yes" target="_blank" title="点击这里联系我">
+                <i><img src="button_old_41.gif" tppabs="http://wpa.qq.com/pa?p=1:1111111:4" height="16" border="0" alt="QQ" /></i>联系QQ
+            </a>
+                        
+        </div>
+        <div id="attention-shop">
+            <p>扫一扫，手机访问微商城</p>
+            <img src="erweima_supplier-1.php-sid=0.png" tppabs="http://www.rongkey.com/english/erweima_supplier.php?sid=0" width="120" height="120" />
+        </div>
+      </div>
+	</div>
+</div>
+ 
+         
+      </div>
+    </div>
+    <div class="left-con">
+    	<div class="aside-con aside-con1">
+  <div class="aside-tit">
+    <h2>相关分类</h2>
+  </div>
+  <div class="aside-list">
+    <ul>
+                  <li><a href="javascript:if(confirm('http://www.rongkey.com/english/category.php?id=373  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='http://www.rongkey.com/english/category.php?id=373'" tppabs="http://www.rongkey.com/english/category.php?id=373" title="兼职">兼职</a></li>
+            <li><a href="javascript:if(confirm('http://www.rongkey.com/english/category.php?id=374  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='http://www.rongkey.com/english/category.php?id=374'" tppabs="http://www.rongkey.com/english/category.php?id=374" title="网站建设">网站建设</a></li>
+            <li><a href="javascript:if(confirm('http://www.rongkey.com/english/category.php?id=375  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='http://www.rongkey.com/english/category.php?id=375'" tppabs="http://www.rongkey.com/english/category.php?id=375" title="小视频">小视频</a></li>
+          </ul>
+  </div>
+</div>
+        <div class="aside-con aside-con1">
+  <div class="aside-tit">
+    <h2>同类品牌</h2>
+  </div>
+  <div class="aside-list">
+    <ul>
+                </ul>
+  </div>
+</div>
+                 
+ 
+		  
+		 
+        
+
+      	<div class="blank"></div>
+      	
+ 
+    </div>
+    <div class="right-con">
+    	        <div id="wrapper">
+        <div class="mt" id="main-nav-holder">
+          <ul class="tab" id="nav">
+            <li class="boldtit-list" onclick="change_widget(1, this);"><a href="goods-1.php-id=313.htm#os_jieshao" tppabs="http://www.rongkey.com/english/goods.php?id=313#os_jieshao" >项目介绍</a></li>
+          </ul>
+          <div class="goods-ce-right"> 
+          	<a href="javascript:addToCart(313)" name="bi_addToCart"  class="right-add" >加入购物车</a>
+            <div class="ce-right">
+              <ul class="abs-ul">
+                <li><i></i><span>项目介绍</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="main_widget_1">
+          <div class="mc" id="os_jieshao">
+            <div class="blank20"></div>
+            <div class="detail-content"> <p style="text-align: left; line-height: 3em;"><span style="color: rgb(0, 0, 0); font-size: 18px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;">招聘主体：上海某公司<br/></span></p><p style="text-align: left; line-height: 3em;"><span style="color: rgb(0, 0, 0); font-size: 18px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;">规模：大</span></p><p style="text-align: left; line-height: 3em;"><span style="color: rgb(0, 0, 0); font-size: 18px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;">招聘数量：10人左右</span></p><p style="text-align: left; line-height: 3em;"><span style="color: rgb(0, 0, 0); font-size: 18px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;">工作地点：只需到公司面试一次，通过后在家即可完成任务。</span></p><p><br/></p><p><br/></p><p><br/></p><p style="text-align: left; line-height: 3em;"><span style="color: rgb(0, 0, 0); font-size: 18px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;">应聘兼职，到伏羲方舟兼职网。</span></p><p style="text-align: left; line-height: 3em;"><span style="color: rgb(0, 0, 0); font-size: 18px; font-family: 微软雅黑, &#39;Microsoft YaHei&#39;;">招聘兼职，到伏羲方舟兼职网！</span></p><p><br/></p><p><img src="31821492741655.png" tppabs="http://lance.fuxiark.com/images/image/31821492741655.png"/></p> </div>
+          </div>
+          <div class="mc" id="os_changjian">
+            <div class="blank20"></div>
+            <div class="wenti">
+  <div class="tab-title"> <span>常见问题</span> </div>
+  <div class="tab-body">
+    <div class="list">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">1、	企房网是做什么的？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right">答：企房网是做房地产中后期全产业链一站式服务平台，整合房地产中后期产业链在平台，让房地产企业在企房网平台轻松找到需要的产业模块。</p>
+      </div>
+    </div>
+    <div class="list">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">2、	企房网和其他房产网站有什么区别？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right">答：企房网是B2B平台，也是O2O平台，企业对企业，不对个人，线上和线下；企房网和其他房产网站不一样，没有一二手房买卖和租赁。</p>
+      </div>
+    </div>
+    <div class="list">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">3、	市场有相似的网站和竞品吗？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right"> 答：目前为止没有，我们是全国首家房地产全产业链一站式服务平台。</p>
+      </div>
+    </div>
+    <div class="list">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">4、	招商需要什么条件及费用？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right">答：招商需要的条件：
+⑴、企业营业执照电子档；
+⑵	、专业资质电子档；
+⑶	、商户基本资料：
+   有效联系人
+   有效联系电话
+   有效办公地址
+   有效邮箱
+⑷	、按要求提供或自己上传企业/项目图片。
+费用详见首页“招商加盟”
+</p>
+      </div>
+    </div>
+    <div class="list">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">5、	加盟企房网有什么好处？有什么优势和特色？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right">答：好处：
+享受网站市场整体推广
+享受网站系统所有资源
+享受独立建城市站，城市站完全由你做主
+享受总部定期网站运营指导
+优势和特色：
+唯一性和稀缺性，专业和全面
+房地产网站中B2B和O2O的结合
+产业链既可独立也可联合
+全球性视野，走在前端
+</p>
+      </div>
+    </div>
+    <div class="list">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">6、	做广告怎么收费？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right">答：收费标准请咨询广告招商电话。</p>
+      </div>
+    </div>
+    <div class="list none">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">7、	网站打不开怎么办？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right">答：这样的情况经常会遇见，首先，可能是网速慢，等等看，其次，关闭窗口重新打开，如果打不开，电脑关机重启，再打不开请打客服电话咨询。</p>
+      </div>
+    </div>
+    <div class="list">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">8、	怎么注册？收费吗？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right">答：免费注册很简单：手机号码注册→输入验证码→设置密码→完成</p>
+      </div>
+    </div>
+    <div class="list" style="border:none">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">9、	登录不上去怎么办？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right">答：登录不上去先检查是否账号和密码输入错误，如不是，请直接拨打客服电话。 </p>
+      </div>
+    </div>
+    <div class="list">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">10、	密码忘记了怎么办？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right">答：拨打客服电话。</p>
+      </div>
+    </div>
+    <div class="list none">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">11、	可以线上支付吗？有几种支付方式？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right">答：可以，目前为止支付宝一种支付方式。</p>
+      </div>
+    </div>
+    <div class="list">
+      <div class="question clearfix"> <span class="icon fl"></span> <strong class="common-right">12、	企房网是哪家公司的？以前做什么的？</strong> </div>
+      <div class="answer clearfix"> <span class="icon fl"></span>
+        <p class="common-right">答：“企房网”是上海沉央信息科技有限公司旗下房地产全产业链综合服务平台，开创全国首家房地产全产业链一站式综合专业服务平台，整合产业模块，通过O2O模式，为企业和客户带来专业、高效的服务。它的前身是岚佳房产信息服务有限公司，集全案营销策划代理、招商运营管理、房屋租赁买卖、装饰装修、地产广告、地产金融为一体的房地产专业服务公司。</p>
+      </div>
+	</div>
+</div>
+</div>
+ </div>
+        </div>
+      </div>
+		<script type="text/javascript">
+			$(".ce-right").height($("#main_widget_1").height());
+            var obj11 = document.getElementById("main-nav-holder");
+			var top11 = getTop(obj11);
+			var isIE6 = /msie 6/i.test(navigator.userAgent);
+			function getTop(e){
+				var offset = e.offsetTop;
+				if(e.offsetParent != null) offset += getTop(e.offsetParent);
+				return offset;
+			}
+	    </script> 
+    </div>
+</div>
+<script type="text/javascript" src="compare-2.js" tppabs="http://www.rongkey.com/english/js/compare.js"></script>
+<script type="text/javascript" src="json2-1.js" tppabs="http://www.rongkey.com/english/js/json2.js"></script>
+<div id="compareBox">
+  <div class="menu">
+    <ul>
+      <li class="current" data-value='compare'>对比栏</li>
+      <li data-value='history'>最近浏览</li>
+    </ul>
+    <a class="hide-compare" href="javascript:;" title="隐藏"></a>
+    <div style="clear:both"></div>
+  </div>
+  <div id="compareList"></div>
+  <div id="historyList" style="display:none;"> <span id="sc-prev" class="sc-prev scroll-btn"></span> <span id="sc-next" class="sc-next scroll-btn"></span>
+    <div class="scroll_wrap"> <ul><li><div class="item_wrap">
+				<div class="dt"><a href="goods-1.php-id=312.htm" tppabs="http://www.rongkey.com/english/goods.php?id=312"><img width="50" height="50" src="312_thumb_G_1492741657907-1.jpg" tppabs="http://www.rongkey.com/english/images/201704/thumb_img/312_thumb_G_1492741657907.jpg" /></a></div>
+				<div class="dd">
+					<a class="name" href="goods-1.php-id=312.htm" tppabs="http://www.rongkey.com/english/goods.php?id=312">网络兼职，在家完成工作，适合大学生勤工俭学</a>
+					<div class="btn">
+						<a class="compare-btn" data-goods="312" onClick="Compare.add(312,'网络兼职，在家完成工作，适合大学生勤工俭学',0, '312_thumb_G_1492741657907-1.jpg'/*tpa=http://www.rongkey.com/english/images/201704/thumb_img/312_thumb_G_1492741657907.jpg*/, '￥0.0')"></a><span class="price main-color"><strong>￥0.0</strong></span>
+					</div>
+				</div>
+			</div></li><li><div class="item_wrap">
+				<div class="dt"><a href="goods-1.php-id=313.htm" tppabs="http://www.rongkey.com/english/goods.php?id=313"><img width="50" height="50" src="313_thumb_G_1492742561973-1.jpg" tppabs="http://www.rongkey.com/english/images/201704/thumb_img/313_thumb_G_1492742561973.jpg" /></a></div>
+				<div class="dd">
+					<a class="name" href="goods-1.php-id=313.htm" tppabs="http://www.rongkey.com/english/goods.php?id=313">在家兼职，预期日薪50元，预计工作1个小时</a>
+					<div class="btn">
+						<a class="compare-btn" data-goods="313" onClick="Compare.add(313,'在家兼职，预期日薪50元，预计工作1个小时',0, '313_thumb_G_1492742561973-1.jpg'/*tpa=http://www.rongkey.com/english/images/201704/thumb_img/313_thumb_G_1492742561973.jpg*/, '￥0.0')"></a><span class="price main-color"><strong>￥0.0</strong></span>
+					</div>
+				</div>
+			</div></li></ul> </div>
+  </div>
+</div>
+<script type="text/javascript">
+var goods_id = 313;
+var goodsattr_style = 1;
+var gmt_end_time = 0;
+var day = "天";
+var hour = "小时";
+var minute = "分钟";
+var second = "秒";
+var end = "结束";
+var goodsId = 313;
+var now_time = 1505562738;
+var suppid = 0;
+</script>
+<script>
+window.onload = function(){
+  Compare.init();
+  fixpng();
+}
+var button_compare = '';
+var exist = "您已经选择了%s";
+var count_limit = "最多只能选择4个商品进行对比";
+var goods_type_different = "\"%s\"和已选择商品类型不同无法进行对比";
+var compare_no_goods = "您没有选定任何需要比较的商品或者比较的商品数少于 2 个。";
+var btn_buy = "购买";
+var is_cancel = "取消";
+var select_spe = "请选择商品属性";
+//changePrice();
+changePriceAll();
+fixpng();
+ShowMyComments(313,0,1);
+try {onload_leftTime();}
+catch (e) {}
+/**
+ * 点选可选属性或改变数量时修改商品价格的函数
+ */
+function changePrice(){
+  var attr = getSelectedAttributes(document.forms['ECS_FORMBUY']);
+  var qty = document.forms['ECS_FORMBUY'].elements['number'].value;
+  Ajax.call('http://www.rongkey.com/english/goods.php', 'act=price&id=' + goodsId + '&attr=' + attr + '&number=' + qty, changePriceResponse, 'GET', 'JSON');
+}
+/**
+ * 接收返回的信息
+ */
+function changePriceResponse(res){
+  if (res.err_msg.length > 0){
+	if(res.qty==0){
+		document.getElementById('choose-btns').style.display = 'none';
+    	document.getElementById('choose-btns1').style.display = 'block';
+	}
+    alert(res.err_msg);
+	document.forms['ECS_FORMBUY'].elements['number'].value = res.qty;
+ }else{
+	  document.getElementById('choose-btns').style.display = 'block';
+     document.getElementById('choose-btns1').style.display = 'none';
+    document.forms['ECS_FORMBUY'].elements['number'].value = res.qty;
+    if (document.getElementById('ECS_GOODS_AMOUNT')){
+      document.getElementById('ECS_GOODS_AMOUNT').innerHTML = res.result;
+	  if (res.result_jf){
+		document.getElementById('ECS_GOODS_AMOUNT_jf').innerHTML = res.result_jf;
+	  }
+    }
+    if(document.getElementById('shows_number')){
+	document.getElementById('shows_number').innerHTML = res.attr_num;
+    }
+    if(document.getElementById('mark_price')){
+	document.getElementById('mark_price').innerHTML = res.result1;
+    }
+  }
+  
+}
+/**
+* 获取商品范围价格
+*/
+function changePriceAll(){
+	var attr = getSelectedAttributes(document.forms['ECS_FORMBUY']);
+	var qty = document.forms['ECS_FORMBUY'].elements['number'].value;
+	Ajax.call('http://www.rongkey.com/english/goods.php', 'act=allprice&id=' + goodsId + '&attr=' + attr + '&number=1', changePriceResponse, 'GET', 'JSON');
+}
+$('.item-operate .collet-btn').click(function(){
+	$('.pop-login,.pop-mask').show();	
+})
+</script>
+<script src="iplookup.php-format=js" tppabs="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js" type="text/javascript"></script>
+<script>
+Ajax.call('http://www.rongkey.com/english/goods.php', 'act=get_pickup_info&province='+remote_ip_info.province+'&city='+remote_ip_info.city+'&district='+remote_ip_info.district+'&suppid='+suppid,
+	function(res){
+		if(res.error == 0) {
+			var result = '<ul>';
+			for(var i=0; i<res.result.length; i++){
+				result += '<li>店名：'+res.result[i].shop_name+'<br>联系人：'+res.result[i].contact+'&nbsp;&nbsp;联系方式：'+res.result[i].phone + '<br>地址：'+res.result[i].address+'</li>';
+			}
+			result += '</ul>';
+			if(res.result.length > 0){
+				document.getElementById('pickup_point_list').innerHTML = result;
+				
+			}else{
+				document.getElementById('pickup_point_list').innerHTML = '<div style="padding:10px 0;text-align:center;">该地区尚未开放自提点</div>';
+				
+			}
+			hide_area();
+			show_list();
+			document.getElementById('province').innerHTML = res.city_info.province;
+			document.getElementById('province').onclick = function(){
+				get_area_list(1, '');
+			}
+			document.getElementById('city').innerHTML = res.city_info.city;
+			document.getElementById('city').onclick = function(){
+				get_area_list(res.city_info.province_id, res.city_info.province);
+			}
+			
+			document.getElementById('area_label').innerHTML = res.city_info.province + '&nbsp;' + res.city_info.city;
+			get_area_list(res.city_info.city_id, res.city_info.city);
+		}
+	}, 'GET', 'JSON');
+function show_list(){
+	document.getElementById('pickup_point').style.borderBottom = "1px solid #fff";
+	document.getElementById('pickup_point_list').style.display = "block";
+}
+function hide_list(){
+	document.getElementById('pickup_point').style.borderBottom = "1px solid #ccc";
+	document.getElementById('pickup_point_list').style.display = "none";
+}
+function get_area_list(parent_id, name){
+	Ajax.call('http://www.rongkey.com/english/goods.php', 'act=get_area_list&parent_id='+parent_id, function(res) {
+		var result = '';
+		for(var i=0; i<res.length; i++){
+			result += '<li';
+			if(res[i].region_name.length>5)
+				result += ' style="widht:170px;"';
+			result += '><a href="javascript:void(0)" ';
+			if(res[i].region_type == 3)
+				result += 'onclick="get_pickup_point_list('+res[i].region_id+', this)">';
+			else
+				result += 'onclick="get_area_list('+res[i].region_id+', \''+res[i].region_name+'\')">';
+			result+=res[i].region_name+'</a></li>';
+		}
+		result += '';
+		document.getElementById('area_list').innerHTML = result;
+		
+		switch(res[0].region_type){
+			case '1':
+				document.getElementById('province').onclick = function(){get_area_list(parent_id, name);};
+				document.getElementById('city').innerHTML = '市';
+				document.getElementById('district').innerHTML = '区';
+				switch_hover('province');
+				break;
+			case '2':
+				document.getElementById('city').onclick = function(){get_area_list(parent_id, name);};
+				document.getElementById('province').innerHTML = name;
+				//document.getElementById('city').innerHTML = '市';
+				document.getElementById('district').innerHTML = '区';
+				switch_hover('city');
+				break;
+			case '3':
+				document.getElementById('city').innerHTML = name;
+				document.getElementById('district').innerHTML = '区';
+				switch_hover('district');
+				break;
+		}
+		hide_list();
+		//show_area();
+	}, 'GET', 'JSON');
+}
+function switch_hover(sel){
+	if(sel == 'province'){
+		document.getElementById('city').className = '';
+		document.getElementById('district').className = '';
+		document.getElementById('province').className = 'hover';
+	}else if(sel == 'city'){
+		document.getElementById('city').className = 'hover';
+		document.getElementById('district').className = '';
+		document.getElementById('province').className = '';
+	}else{
+		document.getElementById('city').className = '';
+		document.getElementById('district').className = 'hover';
+		document.getElementById('province').className = '';
+	}
+}
+function get_pickup_point_list(region_id, obj){
+	var name = obj.innerHTML;
+	document.getElementById('district').innerHTML = name;
+	var label = document.getElementById('province').innerHTML + '&nbsp;' +
+				document.getElementById('city').innerHTML + '&nbsp;' +
+				document.getElementById('district').innerHTML;
+	document.getElementById('area_label').innerHTML = label;
+	
+	Ajax.call('http://www.rongkey.com/english/goods.php', 'act=get_pickup_point_list&district_id='+region_id+'&suppid='+suppid, function(res) {
+		var result = '<ul>';
+			if(res.length > 0){
+				for(var i=0; i<res.length; i++){
+					result += '<li>'+res[i].shop_name+'&nbsp;&nbsp;地址：'+res[i].address+
+								'<br>联系人：'+res[i].contact+'&nbsp;&nbsp;联系方式：'+res[i].phone + '</li>';
+				}
+				result += '</ul>';
+				document.getElementById('pickup_point_list').innerHTML = result;
+				
+			}else{
+				document.getElementById('pickup_point_list').innerHTML = '<div style="padding:10px 0;text-align:center;">该地区尚未开放自提点</div>';
+				
+			}
+			hide_area();
+			show_list();
+			
+			
+	}, 'GET', 'JSON');
+}
+function show_area(){
+	document.getElementById('area_label').style.borderBottom = "1px #fff solid";
+	document.getElementById('area_list_wrap').style.display = "block";
+}
+function hide_area(){
+	document.getElementById('area_label').style.borderBottom = "1px solid #ccc";
+	document.getElementById('area_list_wrap').style.display = "none";
+}
+</script>
+<script type="text/javascript" src="user-1.js" tppabs="http://www.rongkey.com/english/js/user.js"></script><div class="right-sidebar-con">
+	<div class="right-sidebar-main">
+        <div class="right-sidebar-panel">
+            <div id="quick-links" class="quick-links">
+            	<ul>
+                    <li class="quick-area quick-login">
+                        <a href="javascript:;" class="quick-links-a"><i class="setting"></i></a>
+                        <div class="sidebar-user quick-sidebar">
+                        	<i class="arrow-right"></i>
+                            <div class="sidebar-user-info">
+                            	                                <div class="user-pic">
+                                	<div class="user-pic-mask"></div>
+                                    <img src="people-1.gif" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/images/people.gif" />
+                                </div>
+                                <p>你好！请<a href="javascript:;" class="quick-login-a main-color">登录</a>|<a href="register-1.php.htm" tppabs="http://www.rongkey.com/english/register.php" class="main-color">注册</a></p>
+                                                            </div>
+                        </div>
+                    </li>
+					
+                    <li class="sidebar-tabs">
+                        <a href="javascript:void(0);" class="mpbtn_history quick-links-a"><i class="history"></i></a>
+                        <div class="popup">
+                            <font id="mpbtn_histroy">我看过的</font>
+                            <i class="arrow-right"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="user-1.php-act=follow_shop.htm" tppabs="http://www.rongkey.com/english/user.php?act=follow_shop" target="_blank" class="mpbtn_stores quick-links-a"><i class="stores"></i></a>
+                        <div class="popup">
+                            我关注的企业
+                            <i class="arrow-right"></i>
+                        </div>
+                    </li>
+                    <li id="collectGoods">
+                        <a href="user-1.php-act=collection_list.htm" tppabs="http://www.rongkey.com/english/user.php?act=collection_list" target="_blank" class="mpbtn_collect quick-links-a"><i class="collect"></i></a>
+                        <div class="popup">
+                            我收藏的项目
+                            <i class="arrow-right"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="quick-toggle">
+            	<ul>
+                    <li class="quick-area">
+                    	<a class="quick-links-a" href="javascript:;"><i class="qr-code"></i></a>
+                        <div class="sidebar-code quick-sidebar">
+                        	<i class="arrow-right"></i>
+                            <img src="weixin-1.jpg" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/images/weixin.jpg"/>
+                        </div>
+                    </li>
+                    <li class="returnTop">
+                        <a href="javascript:;" class="return_top quick-links-a"><i class="top"></i></a>
+                        <div class="popup">
+                        	返回顶部
+                        	<i class="arrow-right"></i>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="">
+        	
+            <div class="right-sidebar-panels">
+            	<h3 class="sidebar-panel-header">
+                    <a href="javascript:;" class="title"><i class="bonus-icon"></i><em class="title">红包</em></a>
+                    <span class="close-panel"></span>
+                </h3>
+                <div class="bonus-panel-main">
+                    <div class="bonus-panel-content">
+                    	<script type="text/javascript">
+						function fun(type_id, no_have_val){
+							no_have = (typeof(no_have_val) == "undefined" ? 0 : no_have_val)
+							Ajax.call('user-1.php-act=user_bonus.htm'/*tpa=http://www.rongkey.com/english/user.php?act=user_bonus*/, 'id=' + type_id + '&no_have=' + no_have, bounsResponse, 'GET', 'JSON');
+						}
+						function bounsResponse(result){
+							$('.pop-compare,.pop-mask').show();
+							$('.pop-compare .pop-text').html(result.message);
+							$('.pop-compare').css({'top':($(window).height()-$('.pop-compare').height())/2});
+						}
+						</script>
+												<div class="tip-box">
+						  <i class="tip-icon"></i>
+						  <div class="tip-text">暂时还没有红包~~<br/><a class="main-color" href="index-2.htm" tppabs="http://www.rongkey.com/english/">先去逛逛吧</a></div>
+						</div>
+						                    </div>
+                </div>
+            </div>
+            
+        	
+        	<div class="ECS_CARTINFO right-sidebar-panels"><form id="formCart" name="formCart" method="post" action="flow-2.php.htm" tppabs="http://www.rongkey.com/english/flow.php" >
+	<span class="cart_num">0</span>
+	<div class="sidebar-cart-box">
+        <h3 class="sidebar-panel-header">
+            <a href="javascript:;" class="title"><i class="cart-icon"></i><em class="title">购物车</em></a>
+            <span class="close-panel"></span>
+        </h3>
+        <div class="cart-panel-main">
+            <div class="cart-panel-content">
+                                <div class="tip-box">
+                  <i class="tip-icon"></i>
+                  <div class="tip-text">您的购物车里什么都没有哦<br/><a class="main-color" href="index-2.htm" tppabs="http://www.rongkey.com/english/">再去看看吧</a></div>
+                </div>
+                            </div>
+        </div>
+            </div>
+<script type="text/javascript">
+function deleteCartGoods(rec_id){
+	Ajax.call('delete_cart_goods-1.php.htm'/*tpa=http://www.rongkey.com/english/delete_cart_goods.php*/, 'id='+rec_id, deleteCartGoodsResponse, 'POST', 'JSON');
+}
+
+/**
+ * 接收返回的信息
+ */
+function deleteCartGoodsResponse(res){
+  if (res.error){
+    alert(res.err_msg);
+  }else{
+      $('.ECS_CARTINFO').html(res.content);
+	  $('.cart-panel-content').height($(window).height()-90);
+  }
+}
+</script> 
+</form>
+</div>
+        	
+            
+        	<div class="right-sidebar-panels">
+				<h3 class="sidebar-panel-header">
+                	<a href="javascript:;" class="title"><i></i><em class="title">我的足迹</em></a>
+                    <span class="close-panel"></span>
+                </h3>
+          		<div class="sidebar-panel-main">
+            		<div class="sidebar-panel-content">
+              			<div class="history-panel">
+              				<ul>
+                				<li>
+              <div class="p-img"><a target="_blank" href="goods-1.php-id=312.htm" tppabs="http://www.rongkey.com/english/goods.php?id=312"><img src="312_thumb_G_1492741657907-1.jpg" tppabs="http://www.rongkey.com/english/images/201704/thumb_img/312_thumb_G_1492741657907.jpg" alt="网络兼职，在家完成工作，适合大学生勤工俭学" /></a></div>
+              <div class="p-name"><a target="_blank" href="goods-1.php-id=312.htm" tppabs="http://www.rongkey.com/english/goods.php?id=312">网络兼职，在家完成工作，适合大学生勤工俭学</a> </div>
+              <div class="p-comm"><span class="p-price main-color">￥0.0</span> </div>
+            </li><li>
+              <div class="p-img"><a target="_blank" href="goods-1.php-id=313.htm" tppabs="http://www.rongkey.com/english/goods.php?id=313"><img src="313_thumb_G_1492742561973-1.jpg" tppabs="http://www.rongkey.com/english/images/201704/thumb_img/313_thumb_G_1492742561973.jpg" alt="在家兼职，预期日薪50元，预计工作1个小时" /></a></div>
+              <div class="p-name"><a target="_blank" href="goods-1.php-id=313.htm" tppabs="http://www.rongkey.com/english/goods.php?id=313">在家兼职，预期日薪50元，预计工作1个小时</a> </div>
+              <div class="p-comm"><span class="p-price main-color">￥0.0</span> </div>
+            </li>                			</ul>
+     		  			</div>
+            		</div>
+          		</div>
+        	</div>
+        	
+        </div>
+    </div>
+</div>
+<div class="pop-main pop-compare">
+	<div class="pop-header">
+    	<span>温馨提示</span>
+        <a class="pop-close" href="javascript:;" title="关闭"></a>
+    </div>
+    <div class="pop-con">
+    	<i class="pop-icon"></i>
+        <p class="pop-text"></p>
+        <a href="javascript:;" class="pop-sure main-bg-color">确定</a><a href="javascript:;" class="cancel-btn none">取消</a>
+    </div>
+</div>
+<div class="pop-main pop-compare-small">
+	<div class="pop-header">
+    	<span>温馨提示</span>
+        <a class="pop-close" href="javascript:;" title="关闭"></a>
+    </div>
+    <div class="pop-con">
+    	<i class="pop-icon"></i>
+        <p class="pop-text"></p>
+        <a href="javascript:;" class="cancel-btn">关闭</a>
+    </div>
+</div>
+<div id="tell-me-result" class="tell-me-form" style="display:none;">
+	<div class="pop-header"><span>温馨提示</span><a href="javascript:closeDiv1()" title="关闭" class="tell-me-close"></a></div>
+    <div class="tell-me-content">
+    	<div class="tell-me-result">
+            <div class="result-icon"></div>
+            <div class="result-text">
+            	<div class="title"></div>
+                <div class="bottom">
+                	<span onclick="javascript:closeDiv1();" class="cancel-btn">关闭</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="pop-mask"></div>
+<div class="pop-main pop-login">
+  <div class="pop-header"> <span>您尚未登录</span><a class="pop-close" href="javascript:;" title="关闭"></a></div>
+  <div class="pop-con">
+    <form name="formLogin" action="http://www.rongkey.com/english/user.php" method="post" onSubmit="return user_login();">
+      <div class="form">
+      	<div class="mt">
+        	<h2>用户登陆</h2><a href="register-1.php.htm" tppabs="http://www.rongkey.com/english/register.php" class="right_register main-color"><span class="text">立即注册</span><i class="icon"></i></a>
+        </div>
+        <div class="mc">
+        	<div class="msg-wrap">
+            	<div class="msg-error">
+                	<i class="msg-icon"></i><span id="msg-error-text" class="msg-error-text"></span>
+                </div>
+            </div>
+        	<div class="item item-name">
+            	<i class="icon"></i>
+                <input name="username" id="username" type="text" class="text" value="" tabindex="1" placeholder="手机号/用户名/邮箱"/>
+            </div>
+            <div class="item item-password">
+                <i class="icon"></i>
+                <input type="password" name="password" id="password" class="text" value="" tabindex="2" placeholder="密码"/>
+            </div>
+                        <div class="item item-authcode" id="o-authcode">
+            	<div class="item-detail fl">
+                    <i class="icon"></i>
+                    <input type="text" id="authcode" name="captcha" class="text text-1" tabindex="3" placeholder="验证码"/>
+                </div>
+                <label class="img fl">
+                    <img src="captcha.php-is_login=1&1351732530.png" tppabs="http://www.rongkey.com/english/captcha.php?is_login=1&1351732530" alt="captcha" style="vertical-align: middle;cursor: pointer;" onClick="this.src='captcha.php?is_login=1&'+Math.random()" />
+                </label>
+            </div>
+                        <div class="safety" id="autoentry">
+                <input type="checkbox" value="1" name="remember" id="remember" class="checkbox"/>
+                <label for="remember" class="mar-b">请保存我这次的登录信息</label>
+                <a class="forget_password fr" href="findPwd-1.php.htm" tppabs="http://www.rongkey.com/english/findPwd.php">忘记密码？</a> 
+            </div>
+            <div class="login-btn">
+              <input type="hidden" name="act" value="act_login" />
+              <input type="hidden" name="back_act"  value=''/>
+              <input type="submit" name="submit" class="btn-img" id="loginsubmit" value="立即登录" />
+            </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+<script type="text/javascript">	
+$(window).scroll(function(){ 
+	if($(this).scrollTop() > $(window).height() ){ 
+		$('.returnTop').show();
+	}else{ 
+		$('.returnTop').hide();
+	} 
+}) 
+$('.cart-panel-content').height($(window).height()-90);
+$('.bonus-panel-content').height($(window).height()-40);
+$(".returnTop").click(function(){
+	$('body,html').animate({scrollTop:0},800);
+	return false;
+});
+$('.pop-login,.pop-mask').show();
+//点击用户图标弹出登录框
+$('.quick-login .quick-links-a,.quick-login .quick-login-a,.customer-service-online a').click(function(){
+	$('.pop-login,.pop-mask').show();
+})
+$('.quick-area').hover(function(){
+	$(this).find('.quick-sidebar').toggle();
+})
+//移动图标出现文字
+$(".right-sidebar-panel li").mouseenter(function(){
+	$(this).children(".popup").stop().animate({left:-92,queue:true});
+	$(this).children(".popup").css("visibility","visible");
+	$(this).children(".ibar_login_box").css("display","block");
+});
+$(".right-sidebar-panel li").mouseleave(function(){
+	$(this).children(".popup").css("visibility","hidden");
+	$(this).children(".popup").stop().animate({left:-121,queue:true});
+	$(this).children(".ibar_login_box").css("display","none");
+});
+//点击购物车、用户信息以及浏览历史事件
+$('.sidebar-tabs').click(function(){
+	if($('.right-sidebar-main').hasClass('right-sidebar-main-open')&&$(this).hasClass('current')){
+		$('.right-sidebar-main').removeClass('right-sidebar-main-open');
+		$(this).removeClass('current');
+		$('.right-sidebar-panels').eq($(this).index()-1).removeClass('animate-in').addClass('animate-out').css('z-index',1);
+	}else{
+		$(this).addClass('current').siblings('.sidebar-tabs').removeClass('current');
+		$('.right-sidebar-main').addClass('right-sidebar-main-open');
+		$('.right-sidebar-panels').eq($(this).index()-1).addClass('animate-in').removeClass('animate-out').css('z-index',2).siblings('.right-sidebar-panels').removeClass('animate-in').addClass('animate-out').css('z-index',1);
+	}
+});
+$(".right-sidebar-panels").on('click', '.close-panel', function () {
+	$('.sidebar-tabs').removeClass('current');
+	$('.right-sidebar-main').removeClass('right-sidebar-main-open');
+	$('.right-sidebar-panels').removeClass('animate-out');
+});
+$(document).click(function(e){ 
+	var target = $(e.target); 
+	if(target.closest('.right-sidebar-con').length == 0){ 
+		$('.right-sidebar-main').removeClass('right-sidebar-main-open');
+		$('.sidebar-tabs').removeClass('current');
+		$('.right-sidebar-panels').removeClass('animate-in').addClass('animate-out').css('z-index',1);
+	} 
+}) 
+$('.pop-login').css('top',($(window).height()-$('.pop-login').height())/2);
+$('.pop-close').click(function(){
+	$('.pop-main,.pop-mask').hide();
+	$('form[name="formLogin"]').find('.msg-wrap').css('visibility','hidden');
+	$('.pop-login .item,.pop-login .item-detail').removeClass('item-error');
+	$('http://www.rongkey.com/english/.pop-login .text').val('');
+})
+$('http://www.rongkey.com/english/.pop-login .item .text').focus(function(){
+	$(this).addClass('')	
+})
+</script><div class="site-footer">
+    <div class="footer-related">
+  		  		
+              
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="compare-3.js" tppabs="http://www.rongkey.com/english/themes/68ecshopcom_360buy/js/compare.js"></script>
+<script>
+$(function(){
+	$('.goods-col').click(function(){
+		$('.pop-login,.pop-mask').show();	
+	})
+})</script>
+</html>
